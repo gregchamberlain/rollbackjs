@@ -1,0 +1,25 @@
+{
+  "name": "rollbackjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "./scripts/build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "jest-cli": "^16.0.1"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "lodash": "^4.16.4"
+  }
+}

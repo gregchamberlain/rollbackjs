@@ -1,6 +1,8 @@
+import MaxStack from './MaxStack';
+
 class List {
   constructor(state = []) {
-    this.stack = [];
+    this.stack = new MaxStack(100);
     this.state = state;
   }
 
